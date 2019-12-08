@@ -1,0 +1,33 @@
+// contient le style a afficher pour le format desktop
+// comme le style définit ici est chargé après le fichier de style tablet/global.scss, alors
+// les règles dans ce fichier (desktop/global.scss) surcharge celles définit dans tablet/global.scss
+
+body{
+  .sf-toolbarreset{
+    background-color:brown; 
+  }
+  div{
+    background-color: aqua;
+  }
+  h1 {
+    text-align: center; 
+    } 
+  h1{
+      color: darkslateblue;
+    }
+    h2{
+      text-align: center;
+    }
+    h3{
+      text-align: center;
+    }
+
+  p{
+    color: blueviolet;
+}
+
+p{
+  background-color:white;
+  border:1px;border:1px solid black;
+}
+}
